@@ -1,0 +1,10 @@
+GPU-based Accelerating t-SNE Algorithms
+Yifan Li and Jiadao Zou
+======================================== 
+This paper researches on the acceleration of a very commonly used technique in the field of high-dimensional data 
+visualization, which called t-distributed Stochastic Neighbor Embedding (t-SNE). This paper describe our configuration 
+of GPU version of t-SNE. We implement PyTorch to configure GPU environment as the base of running the t-SNE parallelly. 
+Then we do experiment on several traditional dataset like Mnist. Then compare the resulting generating time and the 
+visualizing figures with the original t-SNE ,LLE and Isomap. We also compare our result with the tree-base t-SNE algorithms, 
+which has a more efficient gradient learning O(NlogN) while our is O(N2). Our work show that our work could be a fair replace 
+of CPU based t-SNE algorithms. However, it shows the Barnes_Hut variant of t-SNE performs better even it is run by the CPU. 
