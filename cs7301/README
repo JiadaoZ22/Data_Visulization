@@ -1,5 +1,5 @@
 GPU-based Accelerating t-SNE Algorithms
-Yifan Li and Jiadao Zou
+Jiadao Zou and Yifan Li
 ======================================== 
 This paper researches on the acceleration of a very commonly used technique in the field of high-dimensional data 
 visualization, which called t-distributed Stochastic Neighbor Embedding (t-SNE). This paper describe our configuration 
